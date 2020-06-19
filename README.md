@@ -1,8 +1,8 @@
-# batch-converter
-Convert multiple files to new encoding, TIS-620 to UTF-8, ASCII to UTF-8
+# encoding converter
+Convert multiple files to new encoding, TIS-620 to UTF-8, ASCII to UTF-8, so on.
 
 # prerequisite
-- iconv availabe for OSX, linux
+- `iconv` availabe for OSX, linux
 
 # How to use 
 
