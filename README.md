@@ -1,12 +1,11 @@
 # encoding converter
 Convert multiple files to new encoding, TIS-620 to UTF-8, ASCII to UTF-8, so on.
 
-# prerequisite
+### prerequisite
 - `iconv` availabe for OSX, linux
 
-# How to use 
 
-## Prepare list of files
+### Prepare list of files
 
 example for `.aspx.list` file. ! you can change filename to anothor.
 
@@ -28,7 +27,7 @@ find . -type f -exec file --mime {} \;|grep aspx|grep -v charset=utf-8 > .aspx.l
 
 
 
-## Get started
+### Get started
 
 1. setting parameter in file  `encoding-converter.sh`
 
